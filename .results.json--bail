@@ -1,0 +1,58 @@
+{
+  "stats": {
+    "suites": 4,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 3,
+    "start": "2022-08-13T20:35:53.438Z",
+    "end": "2022-08-13T20:35:53.665Z",
+    "duration": 227
+  },
+  "tests": [
+    {
+      "title": "receives a function and calls it",
+      "fullTitle": "index receivesAFunction(callback) receives a function and calls it",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: receivesAFunction is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "receivesAFunction is not defined"
+      }
+    }
+  ],
+  "pending": [],
+  "failures": [
+    {
+      "title": "receives a function and calls it",
+      "fullTitle": "index receivesAFunction(callback) receives a function and calls it",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: receivesAFunction is not defined\n    at Context.<anonymous> (test/indexTest.js:10:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "receivesAFunction is not defined"
+      }
+    },
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "index returnsANamedFunction() \"before all\" hook",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: returnsANamedFunction is not defined\n    at Context.<anonymous> (test/indexTest.js:20:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "returnsANamedFunction is not defined"
+      }
+    },
+    {
+      "title": "\"before all\" hook",
+      "fullTitle": "index returnsAnAnonymousFunction() \"before all\" hook",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {
+        "stack": "ReferenceError: returnsAnAnonymousFunction is not defined\n    at Context.<anonymous> (test/indexTest.js:36:7)\n    at processImmediate (node:internal/timers:466:21)",
+        "message": "returnsAnAnonymousFunction is not defined"
+      }
+    }
+  ],
+  "passes": []
+}
